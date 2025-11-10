@@ -42,7 +42,9 @@ The model achieved high performance metrics on the independent test set, demonst
 
 ## Visual Analysis
 The final notebook includes comprehensive plots for in-depth analysis:  
+![]/Confusion Matrix Fig 1.png
 - Confusion Matrix: Shows the few misclassifications (e.g., Meningioma samples mistaken for other classes), indicating high prediction confidence overall.
+![]/ROC_Precision-recall.png
 - ROC Curves (One-vs-Rest): Illustrates the trade-off between True Positive Rate (TPR) and False Positive Rate (FPR) for each class, with high Area Under the Curve (AUC) scores (all close to 1.00).
 - Precision-Recall Curves (AP): Confirms model stability and accuracy across different classification thresholds.
 - Per-Class Performance Bar Chart: Visually compares precision, recall, and f1-score for easy metric comparison.
